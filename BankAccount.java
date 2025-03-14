@@ -38,7 +38,7 @@ public class BankAccount {
         return balance;
     }
 
-    // ✅ Main method to run the program
+    //  Main method to run the program
     public static void main(String[] args) {
         BankAccount account = new BankAccount(1000.00);
         account.deposit(500);
